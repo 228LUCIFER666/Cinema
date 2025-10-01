@@ -39,6 +39,14 @@ body
 
 .header
 {
+    min-height: 100vh ;
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31)0%, #621402 85.62%),
+     url('../img/bg.png') no-repeat center top / cover;
+
+}
+
+.navbar
+{
     display: flex;
     align-items: center;
     padding-top: 30px;
@@ -53,3 +61,74 @@ body
     align-items: center;
 }
 
+.film
+{
+    margin-top: 60px;
+    color:white;
+    display: flex;
+    align-items:center;
+}
+.film-title-small
+{
+    opacity:0.5;
+    font-size: 24px;
+    line-height: 150%;
+}
+.film-title
+{
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 11px;
+    margin-bottom: 23px;
+}
+.film-description
+{
+    font-size: 16px;
+    line-height: 150%;
+    width: 570px;
+}
+.film-trailer
+{
+    margin: auto;
+
+}
+.film-details
+{
+    margin-top: 50px;
+    display:flex;
+    align-items:center;
+}
+.time
+{
+    display: flex;
+    align-items:center;
+}
+.time-icon
+{
+    margin-right: 14px;
+}
+.rating
+{
+    display: flex;
+    align-items:center;
+    margin-left: 34px;
+
+}
+.rating-icon
+{
+    margin-right: 14px;
+}
+.rating-current
+{
+    font-size: 24px;
+    line-height: 150%;
+}
+.session
+{
+    margin-top: 62px;
+    padding-top: 46px;
+    padding-bottom: 63px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+}
